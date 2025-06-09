@@ -328,8 +328,8 @@ function Opening() {
   drawCar(windowWidth/2-50,windowHeight/2-100);
   oy-=2;
   textSize(30);
-  text("f를 눌러 전체화면", windowWidth/2, windowHeight/2);
-  text("< >를 눌러 화면 전환", windowWidth/2, windowHeight/2 + 100);
+  text("드라이브 여행\nf를 눌러 전체화면", windowWidth/2, windowHeight/2);
+  text("< >를 눌러 화면 전환", windowWidth/2, windowHeight/2 + 150);
   pop();
 
 }
