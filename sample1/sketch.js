@@ -318,6 +318,11 @@ function draw() {
     ending();
     pop();
   }
+  else if(Ant == 5){
+    push();
+    text("주요 기능\n\nAnt 변수를 이용해 전체적인 장면 전환을 할 수 있게 하였습니다.\n\nwindowResized함수를 사용해 전체화면을 자연스럽게 할 수 있게 하였습니다.\n\nOpening, ending 등의 함수와 같이 각 장면별로 함수를 나누어서 draw함수 안을 복잡하게 하지 않아 유지보수를 쉽게 만들었습니다.\n\ndrawcar함수를 이용해서 장면 2와 장면 3의 자동차 모양을 통일시켰습니다.\n\nmousedpressed함수를 이용하여 키보드를 이용한 사용자와의 상호작용을 할 수 있게 하였습니다.\n\npush,pop함수를 이용하여 각 코드들이 서로에게 영향을 끼치지 않도록 설계하였습니다.\n\n각 장면들 이외에도 drawline, handle 등 대부분의 객체들을 최대한 함수로 만들어 함수 내부 또한 복잡하지 않게 만들었습니다.\n\n\n주요 문법\n\nlet - 변수 선언\n\nif, else if - 조건 판단 후 실행\n\nfor - 반복 작업 실행\n\nfunction - 함수 선언",100, 100)
+    pop();
+  }
 
 }
 //오프닝
